@@ -13,4 +13,3 @@ Light Cyan: CAF0F8
 
 BRAND: Sneakers World
 
-image.png
