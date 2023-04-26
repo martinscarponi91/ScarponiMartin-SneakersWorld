@@ -1,15 +1,19 @@
 # ScarponiMartin-SneakersWorld
 
-Sneakers World
-Tienda online de zapatillas importadas de marcas de moda  como Nike, Vans, Converse, etc.
+## Sneakers World 😄 
 
-Paleta de colores:
+![](assets/logoSneakersWorld.png)
 
-Federal blue: 03045E
-Honolulu blue: 0077B6
-Pacific Cyan: 00B4D8
-Non Photo Blue: 90E0EF
-Light Cyan: CAF0F8
+Tienda online de zapatillas importadas de marcas de moda como Nike, Vans, Converse, etc. 👟👟👟
 
-BRAND: Sneakers World
+Creada con la finalidad de utilizarse en el proyecto de la Diplomatura de desarrollo fullstack de Icaro.
 
+## Paleta de colores 
+
+|    Colour     |       Hex       | 
+|:-------------:|:---------------:|  
+| Federal blue  | 03045E          |       
+| Honolulu blue | 0077B6          |        
+| Pacific Cyan  | 00B4D8          |        
+| Non Photo Blue| 90E0EF          |         
+| Light Cyan    | CAF0F8          |
