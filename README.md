@@ -17,3 +17,5 @@ Creada con la finalidad de utilizarse en el proyecto de la Diplomatura de desarr
 | Pacific Cyan  | 00B4D8          |        
 | Non Photo Blue| 90E0EF          |         
 | Light Cyan    | CAF0F8          |
+
+[Link de Figma](https://www.figma.com/file/2w2YBFr7TZmYY7TkPASGVb/Boceto-ecommerce?type=design&node-id=21%3A317&t=vQrDUirJNs7iPfag-1)
