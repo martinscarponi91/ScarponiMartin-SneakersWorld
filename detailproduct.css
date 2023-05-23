@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Graduate&display=swap");
+
+/* reset css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Graduate;
+}
+
+/* variables colores */
+:root {
+  --honolulu-blue: #0077b6;
+  --federal-blue: #03045e;
+  --non-photo-blue: #90e0ef;
+  --pacific-cyan: #00b4d8;
+  --light-cyan: #caf0f8;
+}
+/* styles css */
+body {
+  background-color: var(--non-photo-blue);
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--honolulu-blue);
+  color: var(--light-cyan);
+  padding: 0px;
+}
+
+.logonav {
+  height: 75px;
+  width: 150px;
+}
+
+.navbar__menu {
+  display: flex;
+  list-style: none;
+}
+
+.navbar__item {
+  margin-right: 10px;
+}
+
+.navbar__link {
+  color: var(--light-cyan);
+  text-decoration: none;
+}
+
+.container {
+  margin: 5rem;
+  display: flex;
+  justify-content: center;
+
+  border: 10px;
+}
+
+.product-detail__info{
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  border: 0.25rem solid var(--federal-blue);
+  background-color: var(--pacific-cyan);
+  padding: 1.5rem 8px 1rem 8px;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.product {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 15%;
+  background-color: var(--light-cyan);
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--federal-blue);
+  color: var(--light-cyan);
+  font-size: 16px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: var(--honolulu-blue);
+  color: var(--light-cyan);
+  text-align: center;
+  padding: 20px;
+}
+
+.product-detail__title{
+    color: var(--federal-blue);
+}
+
+.product-detail__description{
+    color: var(--federal-blue);
+}
+
+.product-detail__price{
+    color: var(--federal-blue);
+}
+
+/* mediaquery  */
+@media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .navbar__menu {
+      flex-direction: column;
+      padding: 0px;
+    }
+    .navbar__item {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  

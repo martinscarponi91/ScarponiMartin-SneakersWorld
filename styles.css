@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Graduate&display=swap");
+
+/* reset css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Graduate;
+}
+
+/* variables colores */
+:root {
+  --honolulu-blue: #0077b6;
+  --federal-blue: #03045e;
+  --non-photo-blue: #90e0ef;
+  --pacific-cyan: #00b4d8;
+  --light-cyan: #caf0f8;
+}
+/* styles css */
+body {
+  background-color: var(--non-photo-blue);
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--honolulu-blue);
+  color: var(--light-cyan);
+  padding: 0px;
+}
+
+.logonav {
+  height: 75px;
+  width: 150px;
+}
+
+.navbar__menu {
+  display: flex;
+  list-style: none;
+}
+
+.navbar__item {
+  margin-right: 10px;
+}
+
+.navbar__link {
+  color: var(--light-cyan);
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--light-cyan);
+  background-color: var(--federal-blue);
+  padding: 20px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  color: var(--federal-blue);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+.footer {
+  background-color: var(--honolulu-blue);
+  color: var(--light-cyan);
+  text-align: center;
+  padding: 20px;
+}
+
+/* styles.css */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: var(--non-photo-blue);
+  box-sizing: border-box;
+  color: var(--federal-blue);
+  font: size 16px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--federal-blue);
+  color: var(--light-cyan);
+  font-size: 16px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar__menu {
+    flex-direction: column;
+    padding: 0px;
+  }
+  .navbar__item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .card{
+    flex-direction: column;
+  }
+  
+}
+
