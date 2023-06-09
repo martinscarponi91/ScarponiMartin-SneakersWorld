@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Graduate&display=swap");
+
+/* reset css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Graduate;
+}
+
+/* variables colores */
+:root {
+  --honolulu-blue: #0077b6;
+  --federal-blue: #03045e;
+  --non-photo-blue: #90e0ef;
+  --pacific-cyan: #00b4d8;
+  --light-cyan: #caf0f8;
+}
+/* Estilos generales */
+
+body {
+  background-color: var(--non-photo-blue);
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--honolulu-blue);
+  color: var(--light-cyan);
+  padding: 0px;
+}
+
+.logonav {
+  height: 75px;
+  width: 150px;
+}
+
+.navbar__menu {
+  display: flex;
+  list-style: none;
+}
+
+.navbar__item {
+  margin-right: 10px;
+}
+
+.navbar__link {
+  color: var(--light-cyan);
+  text-decoration: none;
+}
+
+.container {
+  margin: 5.5rem;
+  display: flex;
+  justify-content: center;
+
+  border: 10px;
+}
+
+.form {
+  max-width: 400px;
+  margin: auto;
+
+  padding: 40px;
+}
+
+/* Estilos del formulario de inicio de sesión */
+.login-form {
+  background-color: var(--pacific-cyan);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--federal-blue);
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--federal-blue);
+  color: var(--light-cyan);
+
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: var(--honolulu-blue);
+  color: var(--light-cyan);
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 650px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar__menu {
+    flex-direction: column;
+    padding: 0px;
+  }
+  .navbar__item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
