@@ -1,16 +1,17 @@
 const express = require("express");
+const productosRoutes = require("./routes/productosRoutes");
+
 const app = express();
-const PORT = 1000;
 
-app.use(express.urlencoded({ extended: true }));
+// Middleware
 app.use(express.json());
-app.use(express.static("public"));
-app.set("view engine", "ejs");
 
+
+// Rutas
 app.use(require("./routes/indexRoutes"));
-app.use(require("./routes/productsRoutes"));
+app.use("/productos", productosRoutes);
 
-//Server
+const PORT = 3000;
 app.listen(PORT, () => {
-  console.log(`Example app listening at http://localhost:${PORT}`);
+  console.log(`Servidor iniciado en http://localhost:${PORT}`);
 });

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "nombre": "Nike Air Force 1",
+    "precio": 200
+  },
+  {
+    "id": 2,
+    "nombre": "Vans Old Skool",
+    "precio": 100
+  },
+  {
+    "id": 3,
+    "nombre": "Nike Cortez",
+    "precio": 200
+  },
+  {
+    "id": 4,
+    "nombre": "Converse Superstar",
+    "precio": 80
+  },
+  {
+    "id": 5,
+    "nombre": "Nike Air Max",
+    "precio": 250
+  },
+  {
+    "id": 6,
+    "nombre": "Nike Air Max IV",
+    "precio": 200
+  }
+]
