@@ -12,7 +12,7 @@ const obtenerUnProducto = (req, res) => {
 const crearProducto = (req, res) => {
   const { id, nombre, precio } = req.body;
   // creamos el Producto
-  const newProducto = { nombreProducto: id, nombre, precio };
+  const newProducto = { id, nombre, precio };
 
   // logica de base de datos
   let productosDB = readProductos();
