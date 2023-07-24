@@ -3,8 +3,10 @@ const productosRoutes = require("./routes/productosRoutes");
 
 const app = express();
 
-// Middleware
+
 app.use(express.json());
+app.set("view engine", "ejs");
+app.use(express.static("public"));
 
 
 // Rutas
