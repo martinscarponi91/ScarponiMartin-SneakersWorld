@@ -1,27 +1,13 @@
 const express = require("express");
 const app = express();
-const PORT = 3000;
+const PORT = 1000;
 
-//Rutas
-app.get("/", (req, res) => {
-  res.send("Estoy en home");
-});
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+app.set("view engine", "ejs");
 
-app.get("/login", (req, res) => {
-  res.send("Estoy en login");
-});
-
-app.get("/register", (req, res) => {
-  res.send("Estoy en register");
-});
-
-app.get("/detailproduct", (req, res) => {
-  res.send("Estoy en detail product");
-});
-
-app.get("/cart", (req, res) => {
-  res.send("Estoy en cart");
-});
+app.use(require("./routes/indexRoutes"));
+app.use(require("./routes/productsRoutes"));
 
 //Server
 app.listen(PORT, () => {
