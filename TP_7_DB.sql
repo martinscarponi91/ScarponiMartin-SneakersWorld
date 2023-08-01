@@ -1,3 +1,6 @@
+CREATE DATABASE sneakers_world;
+USE sneakers_world;
+
 CREATE TABLE productos (
     id INT PRIMARY KEY AUTO_INCREMENT,
     nombre VARCHAR(100),
